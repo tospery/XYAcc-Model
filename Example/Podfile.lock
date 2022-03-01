@@ -1,16 +1,43 @@
 PODS:
-  - XYAcc-Model (0.1.0)
+  - ObjectMapper (4.2.0)
+  - QMUIKit/QMUICore (4.4.3):
+    - QMUIKit/QMUILog
+    - QMUIKit/QMUIWeakObjectContainer
+  - QMUIKit/QMUILog (4.4.3)
+  - QMUIKit/QMUIWeakObjectContainer (4.4.3)
+  - SWFrame/Core (2.0.1):
+    - ObjectMapper (= 4.2.0)
+    - QMUIKit/QMUICore (= 4.4.3)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwiftyBeaver (= 1.9.5)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwiftyBeaver (1.9.5)
+  - XYAcc-Model (1.0.0):
+    - SWFrame/Core (= 2.0.1)
 
 DEPENDENCIES:
   - XYAcc-Model (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ObjectMapper
+    - QMUIKit
+    - SWFrame
+    - SwifterSwift
+    - SwiftyBeaver
 
 EXTERNAL SOURCES:
   XYAcc-Model:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYAcc-Model: 4fa1782db013b65e5ff59d439b284ec14865a213
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  QMUIKit: 5da6e59d5d312681ee45706af42fd3af7b4f55eb
+  SWFrame: c1d62d9bb9e689a1756c55aa2be887645373eb69
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  XYAcc-Model: 8900375c17d469a77cf86ba566630fe4d109396e
 
-PODFILE CHECKSUM: 4d6c37ba4322b465424c48f4eeb59c4c75e9e47a
+PODFILE CHECKSUM: 11dd91e71566cfece1a1b9efd537d3b3b54cc8f1
 
 COCOAPODS: 1.11.2

@@ -176,9 +176,19 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SWFrame/SWFrame.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYAcc-Model/XYAcc_Model.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SWFrame/SWFrame.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XYAcc-Model/XYAcc_Model.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
