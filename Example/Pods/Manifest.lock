@@ -1,0 +1,16 @@
+PODS:
+  - XYAcc-Model (0.1.0)
+
+DEPENDENCIES:
+  - XYAcc-Model (from `../`)
+
+EXTERNAL SOURCES:
+  XYAcc-Model:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYAcc-Model: 4fa1782db013b65e5ff59d439b284ec14865a213
+
+PODFILE CHECKSUM: 4d6c37ba4322b465424c48f4eeb59c4c75e9e47a
+
+COCOAPODS: 1.11.2

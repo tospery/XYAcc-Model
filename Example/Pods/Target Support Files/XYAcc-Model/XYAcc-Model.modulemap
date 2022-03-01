@@ -1,0 +1,6 @@
+framework module XYAcc_Model {
+  umbrella header "XYAcc-Model-umbrella.h"
+
+  export *
+  module * { export * }
+}
