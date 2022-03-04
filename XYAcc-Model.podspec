@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XYAcc-Model'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'XYAcc Model'
   s.description      = <<-DESC
 						XYAcc Model Layer.
