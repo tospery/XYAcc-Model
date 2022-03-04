@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ObjectMapper
+## ObjectMapper-JX
 
 The MIT License (MIT)
 Copyright (c) 2014 Hearst

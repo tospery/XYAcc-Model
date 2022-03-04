@@ -1,6 +1,6 @@
 {
   "name": "XYAcc-Model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "XYAcc Model",
   "description": "XYAcc Model Layer.",
   "homepage": "https://github.com/tospery/XYAcc-Model",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tospery/XYAcc-Model.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "requires_arc": true,
   "swift_versions": "5.0",
@@ -24,7 +24,7 @@
   "source_files": "XYAcc-Model/**/*",
   "dependencies": {
     "SWFrame/Core": [
-      "2.0.1"
+      "2.0.2"
     ]
   },
   "swift_version": "5.0"

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ObjectMapper
+import ObjectMapper_JX
 import SWFrame
 
 public struct AccelerateService: ModelType, Identifiable {

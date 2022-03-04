@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XYAcc-Model'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'XYAcc Model'
   s.description      = <<-DESC
 						XYAcc Model Layer.
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
   s.source_files = 'XYAcc-Model/**/*'
-  s.dependency 'SWFrame/Core', '2.0.1'
+  s.dependency 'SWFrame/Core', '2.0.2'
 end
